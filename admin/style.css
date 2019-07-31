@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin:0
+}
+
+
+
+/* Contact */
+.contact{
+    position: relative;
+    height: 20.2em;
+    width: 100%;
+    background-image: url('./assests/images/28.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0px;
+    margin:0px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family:Helvetica;
+    transform: scale(1);
+    filter: brightness(1);
+    color:white;
+    transition: all 800ms ease-in-out;
+}
+.contact-wrapper{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.contact:hover{
+    transform: scale(1.1);
+}
+
+.contact h2{
+    position: absolute;
+    margin:0;
+    padding:0;
+    margin-top:55px;
+    
+}
+.contact p{
+    margin-top:7%;
+}
+
+/* Contact-body */
+nav{
+    height: 10.5rem;
+    position: relative;
+   
+}
+.navbar{
+    opacity: 0.7;
+}
+.nav-wrapper{
+    position: absolute;
+    padding-top: 20px;
+}
+.nav-link{
+    font-weight: 400;
+    font-family: Arial;
+    color:rgb(0, 0, 0);
+}
+
+.nav-link:hover{
+    color: #886D4A;
+}
+
+.contact-body{
+    width: 100%;
+    margin:0px;
+    padding:0px;
+    font-family: Helvetica, sans-serif;
+    background: rgb(250, 249, 249);
+
+}
+
+.logo{
+    top:0px;
+    padding:0px;
+    margin:0px;
+    width:1.rem;
+    height: 256px;
+}
+
+
+.contact-body h3{
+    color: #886D4A;
+}
+
+.card{
+    padding:28px;
+}
+
+.contact-icons-container{
+    display: inherit;
+    
+}
+
+.contact-icons-container p{
+   padding-left: 10px; 
+}
+/* Button */
+#submitbutton{
+    width:144px;
+    height:44px;
+    font-size: 18px;
+    background: #886D4A;
+    border-radius: 20px;
+}
+#submitbutton:hover{
+  
+    background: rgb(53, 33, 6);
+}
+
+
+
+/* Get in touch */
+.get-in-touch{
+    padding:40px;
+    margin-top:0px;
+}
+
+.get-in-touch i{
+    color: #886D4A;
+    transform: rotate(0deg);
+    transform-origin: center;
+    transition: all 800ms ease-in-out;
+    
+}
+
+.get-in-touch i:hover{
+    cursor: pointer;
+    transform: rotate(360deg)
+}
+
+.phone{
+    content: "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+
+/*  Map*/
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+

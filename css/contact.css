@@ -1,0 +1,249 @@
+/* Contact */
+.contact{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: url('../assets/images/contact.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0px;
+    margin:0px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family:Helvetica;
+    transform: scale(1);
+    filter: brightness(1);
+    color:white;
+    transition: all 800ms ease-in-out;
+}
+.contact-wrapper{
+    overflow: hidden;
+    width: 100%;
+}
+
+.maps{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom:20px;
+}
+
+.contact-icons-container p{
+    width: 400px;
+}
+
+.contact-icons-container a{
+    color:#444444;
+}
+
+.contact-icons-container a:hover{
+    color: #886D4A;
+}
+
+/*  Map*/
+#map {
+
+    height: 300px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+/* Mobile View Contact image */
+@media (max-width: 360px){
+    .contact{
+    
+        height: 90px;
+    }
+    .contact h2{
+        font-size: 24px;
+        margin-left: -67px;
+        margin-top: 14%;
+    }
+    .contact-icons-container p{
+        width: 190px;
+    }
+    img {
+        margin-top: 61px;
+    }
+}
+
+
+.contact:hover{
+    transform: scale(1.1);
+}
+
+.contact h2{
+    color:white;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    margin-left:-73px;
+    margin-top: 12%;
+    
+}
+.contact p{
+    margin-top:7%;
+}
+
+/* Contact-body */
+nav{
+    height: 10.5rem;
+    position: relative;
+   
+}
+.navbar{
+    opacity: 0.7;
+}
+.nav-wrapper{
+    position: absolute;
+    padding-top: 20px;
+}
+.nav-link{
+    font-weight: 400;
+    font-family: Arial;
+    color:rgb(0, 0, 0);
+}
+
+.nav-link:hover{
+    color: #886D4A;
+}
+
+.contact-body{
+    width: 100%;
+    margin:0px;
+    padding:0px;
+    font-family: Helvetica, sans-serif;
+    background: rgb(250, 249, 249);
+
+}
+
+.logo{
+    top:0px;
+    padding:0px;
+    margin:0px;
+    width:1.rem;
+    height: 256px;
+}
+
+
+.contact-body h3{
+    color: #886D4A;
+}
+
+.card{
+    padding:28px;
+    border: 1px solid #e1e1e1;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 2px #ddd;
+    transition: all 400ms ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 0px white;
+}
+
+.card-touch{
+    border:1px solid #e1e1e1;
+    height: 550px;
+    background: white;
+    border-radius: 10px;
+}
+
+.contact-icons-container{
+    display: inherit;
+}
+
+.contact-icons-container p{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 32px;
+}
+
+/* Button */
+#submitbutton{
+    width:144px;
+    height:44px;
+    font-size: 18px;
+    background: #886D4A;
+    border-radius: 20px;
+}
+#submitbutton:hover{
+  
+    background: rgb(53, 33, 6);
+}
+
+/* Scroll Bar */
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #886D4A;  
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 182, 85)
+    }
+
+
+/* Get in touch */
+.get-in-touch{
+    padding:40px;
+    margin-top:0px;
+    
+}
+
+.get-in-touch i{
+    color: #886D4A;
+    transform: rotate(0deg);
+    transform-origin: center;
+    transition: all 800ms ease-in-out;
+    
+}
+
+.get-in-touch i:hover{
+    cursor: pointer;
+    transform: rotate(360deg)
+}
+
+.phone{
+    content: "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+.card-touch{
+    height: 640px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group input{
+    height: 40px;
+}
+
+.card-touch .form-group textarea{
+    height:250px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+
+

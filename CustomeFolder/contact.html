@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VM</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg  bg-light fixed-top ">
+                <img src="./assests/images/VM DESIGN-15.png" alt="" class="logo" />
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse right" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">OUR PARTNERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CAREER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </div>
+
+
+        </nav>
+
+    <div class="contact-wrapper">
+            <div class="row contact">
+                    <h2>
+                          Contact Us
+                    </h2> 
+              </div>
+    </div>    
+    
+
+    <div class="contact-body row ">
+            
+                    <div class="col-lg-6 col-sm-12 col-md-12 get-in-touch ">
+                      <div class="card">
+                            <h3>Get in touch</h3>
+                            <form action="#" id="myForm">
+                                    <div class="form-group col-lg-7 col-sm-12">
+                                      <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Your Name"
+                                      
+                                      >
+                                       
+                                    </div>
+                                    <div class="form-group col-lg-7 col-sm-12">
+                                            <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp" placeholder="Your Email">
+                                             
+                                    </div>
+                                    <div class="form-group col-lg-7 col-sm-12">
+                                            <input type="text" class="form-control" id="phonenumber" aria-describedby="emailHelp" placeholder="Your Phone">
+                                             
+                                    </div>
+                                    <div class="form-group col-lg-12 col-sm-12">
+                                            
+                                    <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                                             
+                                    </div>
+
+                                    <div class="form-group col-lg-12 col-sm-12">
+                                        <button type="submit" id="submitbutton" class="btn btn-primary">Submit</button>
+                                    </div>
+                                  </form>
+                         </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12 col-md-12 get-in-touch ">
+                            <div class="card">
+                                  <h3>Our Contacts</h3>
+                                  <div class="contact-icons-container">
+                                        <i class="large material-icons">call</i> <p>(+91) 9619 431 329 </p>
+                                  </div>
+                                  <div class="contact-icons-container">
+                                  <i class="large material-icons">email</i> <P>studentaxisinfo@gmail.com</P>
+                                  </div>
+                                  <div id="map"></div>
+                               </div>
+                          </div>
+               
+    </div>
+    <script>
+    function initMap() {
+        var myLatLng = {lat: -25.363, lng: 131.044};
+
+        // Create a map object and specify the DOM element
+        // for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          zoom: 4
+        });
+}
+    </script>
+    
+<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+<script src="./main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuA0z6kj3-5F7EhpymIWkgCACf-ymfyeE&callback=initMap">
+</script>
+</body>
+</html>
